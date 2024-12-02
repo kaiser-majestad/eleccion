@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elección Representante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Elección de Representante de Aprendices</h1>
+        <div id="login">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password">
+            <button id="loginButton">Iniciar Sesión</button>
+        </div>
+        <div id="admin" style="display:none;">
+            <button id="iniciarButton">Iniciar Votación</button>
+            <button id="cerrarButton" style="display:none;">Cerrar Votación</button>
+        </div>
+        <div id="candidatos" style="display:none;"></div>
+        <div id="resultado" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
